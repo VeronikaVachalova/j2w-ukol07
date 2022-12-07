@@ -14,10 +14,10 @@
 <body>
 <div class="detail">
 
-    <h2>${singlePost.title?has_content}</h2>
-        <p>${singlePost.author?has_content}</p>
-        <p>${singlePost.perex?has_content}</p>
-        <p>${singlePost.body?has_content}</p>
+    <h1>${singlePost.title}</h1>
+        <p>${singlePost.author}</p>
+        <p>${singlePost.perex}</p>
+        <p>${singlePost.body}</p>
 
 </div>
 </body>
