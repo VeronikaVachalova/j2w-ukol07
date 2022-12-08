@@ -28,8 +28,10 @@
 
         [#items as post]
             <tr>
+
                 <td>
-                               <div><a href="${post.slug}" class="page">https://localhost:8080${post.slug?no_esc}</a></div></td>
+                    <div><a href="${post.slug}" class="page">${post.slug?no_esc}</a></div>
+                </td>
                 <td>${post.author}</td>
                 <td>${post.title}</td>
                 <td>${post.perex}</td>
