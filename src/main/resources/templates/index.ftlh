@@ -30,7 +30,7 @@
             <tr>
 
                 <td>
-                    <div><a href="${post.slug}" class="page">${post.slug?no_esc}</a></div>
+                    <a href="http://localhost:8080/post/${post.slug?no_esc}" class="page">${post.slug?no_esc}</a>
                 </td>
                 <td>${post.author}</td>
                 <td>${post.title}</td>
